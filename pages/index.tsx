@@ -41,7 +41,7 @@ const Home: NextPage = () => {
 	return (
 		<>
 			<AppContext.Provider value={heroes as Hero[]}>
-				<main className="container pt-5 main">
+				<div className="container pt-5 main">
 					<div className="container-fluid d-flex align-items-center">
 						<div className="hero me-5">
 							<form onSubmit={onSubmitHandler}>
@@ -83,7 +83,7 @@ const Home: NextPage = () => {
 							</ul>
 						</div>
 					</div>
-				</main>
+				</div>
 
 				<style jsx>{`
 					.wrap {
